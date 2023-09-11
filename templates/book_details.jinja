@@ -1,0 +1,11 @@
+{%extends'base.jinja'%} {%block content%}
+<ul id="book">
+    <li>
+        Title: {{book.title}}<br>
+        Author: {{book.author}}<br>
+        Genre: {{book.genre}}<br>
+        <a href="http://127.0.0.1:5000/books" class="link">
+        Back to list</a>
+    </li>
+</ul>
+{%endblock%}
